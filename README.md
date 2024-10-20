@@ -11,25 +11,31 @@ zhipin-auto-reply 是一个自动回复和处理BOSS直聘聊天的Node.js应用
 - 根据职位类型应用不同的筛选条件
 - 检查候选人简历中是否包含特定技能（如Vue/Node.js）
 
+
+
+## 前置条件
+
+在使用本程序之前，请确保您已经拥有BOSS直聘的招聘端账号，并且已经在Chrome浏览器中登录。以下是详细步骤：
+
+1. 打开Chrome浏览器，并启动调试模式：
+   - Windows:
+     ```
+     chrome --remote-debugging-port=9333
+     ```
+   - Mac:
+     ```
+     open -a Google\ Chrome --args --remote-debugging-port=9333
+     ```
+
+2. 在启动后的Chrome浏览器中，访问BOSS直聘网站并登录您的招聘端账号。
+
+3. 确保您已经成功登录并可以访问招聘端的聊天页面。
+
+完成以上步骤后，您可以继续进行安装和使用本程序。
+
 ## 安装
 
-确保您的系统中已安装Node.js和Yarn。
-
-chrome 启动调试模式，调试接口定为9333,具体启动命令：
-
-windows:
-
-```
-chrome --remote-debugging-port=9333
-```
-
-mac:
-
-```
-open -a Google\ Chrome --args --remote-debugging-port=9333
-```
-
-然后，按照以下步骤进行安装：
+按照以下步骤进行安装：
 
 1. 进入项目目录：
    ```
