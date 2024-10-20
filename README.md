@@ -60,7 +60,7 @@ zhipin-auto-reply 是一个自动回复和处理BOSS直聘聊天的Node.js应用
 
 ## 配置
 
-您可以在 `src/config/constants.js` 文���中修改以下配置：
+您可以在 `src/config/constants.js` 中修改以下配置：
 
 ```javascript
 /** @constant {string} BROWSER_URL - 浏览器 URL */
